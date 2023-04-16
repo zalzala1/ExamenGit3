@@ -26,5 +26,14 @@
             CarteCredit = carteCredit;
             NumeroChambre = numeroChambre;
         }
+          public Hotel()
+        {
+            Clients = new ArrayList();
+        }
+
+        public void AjouterClient(Client client)
+        {
+            Clients.Add(client);
+        }
     }
 }
